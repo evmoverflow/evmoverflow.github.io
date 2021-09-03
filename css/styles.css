@@ -9,6 +9,9 @@ background-color: #333;
 font-family: Arial;
 font-size: 18px;
 }
+body {
+user-select: none;
+}
 table {
 font: inherit;
 }
@@ -38,7 +41,7 @@ color: inherit;
 #logo {
 font-size: 28px;
 font-weight: bold;
-padding: 14px 6px;
+padding: 14px 6px 24px;
 text-align: center;
 }
 #logo img {
@@ -52,7 +55,7 @@ color: #6ed0ff;
 }
 
 #container {
-margin: 60px 0;
+margin: 80px 0;
 }
 
 #wrapper {
