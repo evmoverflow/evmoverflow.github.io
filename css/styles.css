@@ -118,12 +118,11 @@ font-weight: 600;
 padding: 10px;
 border-radius: 0 0 10px 10px;
 color: #eee;
-background-color: #111;
-border: 1px solid #666;
 }
 #action button[disabled] {
 color: #999;
 background-color: #3f3f3f;
+border: 1px solid #666;
 }
 
 #wrapper.loading #loading-btn,
@@ -136,13 +135,6 @@ background-color: #3f3f3f;
 #wrapper.noliquidity #noliquidity-btn,
 #wrapper.ready #swap-btn { display: block }
 
-#swap-btn {
-background-color: #285a7b;
-border: 1px solid #2879a9;
-}
-#swap-btn:hover {
-background-color: #0071bb;
-}
 #connect-btn {
 background-color: #2e3191;
 border: 1px solid #4549bf;
@@ -156,6 +148,13 @@ border: 1px solid #d9865f;
 }
 #approve-btn:hover {
 background-color: #c38425
+}
+#swap-btn {
+background-color: #285a7b;
+border: 1px solid #2879a9;
+}
+#swap-btn:hover {
+background-color: #0071bb;
 }
 
 #swap-pairs {
