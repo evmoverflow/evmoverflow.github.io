@@ -1,0 +1,159 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+color: #eee;
+background-color: #333;
+font-family: Arial;
+font-size: 18px;
+}
+table {
+font: inherit;
+}
+button {
+color: #eee;
+background-color: #111;
+border: 1px solid #666;
+padding: 6px 8px;
+cursor: pointer;
+font: inherit;
+outline: 0;
+}
+button:hover {
+background-color: #333;
+}
+select, input {
+color: #eee;
+background-color: #555;
+border: 1px solid #666;
+font-size: 18px;
+padding: 6px 8px;
+font: inherit;
+outline: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+
+#logo {
+font-size: 28px;
+font-weight: bold;
+padding: 14px 6px;
+text-align: center;
+}
+#logo img {
+width: 36px;
+height: 36px;
+vertical-align: middle;
+margin-right: 10px;
+}
+#logo span {
+color: #6ed0ff;
+}
+
+#container {
+margin: 60px 0;
+}
+
+#wrapper {
+width: 400px;
+margin: 0 auto;
+}
+
+#swap-table {
+width: 100%;
+height: 200px;
+border-radius: 14px 14px 0 0;
+padding: 30px 0;
+background-color: #3f3f3f;
+text-align: center;
+}
+#swap-table td {
+padding: 6px;
+}
+#swap-table select,
+#swap-table input {
+height: 36px;
+vertical-align: bottom;
+}
+
+#from-select, #to-select {
+/*width: 98px;*/
+/*margin-right: 4px;*/
+border-radius: 6px 0px 0px 6px;
+border-right-width: 0;
+}
+#from-amount, #to-amount {
+text-align: right;
+border-radius: 0px 6px 6px 0px;
+border-left-width: 0;
+}
+
+#footer {
+text-align: center;
+font-size: 14px;
+margin-top: 40px;
+}
+#footer a {
+text-decoration: none;
+color: #999;
+width: 96px;
+display: inline-block;
+}
+#footer a:hover {
+color: #efefef;
+}
+#footer img {
+vertical-align: middle;
+width: 14px;
+height: 14px;
+margin-right: 6px;
+margin-bottom: 2px;
+}
+
+#wrapper button {
+display: none;
+width: 100%;
+font-weight: 600;
+padding: 10px;
+border-radius: 0 0 10px 10px;
+}
+#wrapper button[disabled] {
+color: #999;
+background-color: #3f3f3f;
+}
+
+#wrapper.loading #loading-btn,
+#wrapper.approving #approving-btn,
+#wrapper.swapping #swapping-btn,
+#wrapper.nometamask #nometamask-btn,
+#wrapper.noconnect #connect-btn,
+#wrapper.nobalance #nobalance-btn,
+#wrapper.noallowance #approve-btn,
+#wrapper.noliquidity #noliquidity-btn,
+#wrapper.ready #swap-btn { display: block }
+
+#swap-btn {
+background-color: #285a7b;
+border: 1px solid #2879a9;
+}
+#swap-btn:hover {
+background-color: #0071bb;
+}
+#connect-btn {
+background-color: #2e3191;
+border: 1px solid #4549bf;
+}
+#connect-btn:hover {
+background-color: #42459c;
+}
+#approve-btn {
+background-color: #c36725;
+border: 1px solid #d9865f;
+}
+#approve-btn:hover {
+background-color: #c38425
+}
