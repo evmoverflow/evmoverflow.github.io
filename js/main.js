@@ -149,7 +149,7 @@ $to.addEventListener('change', function(e) {
       break;
     }
   }
-  getReturnAmount(true);
+  getReturnAmount();
 });
 
 $from_amount.addEventListener('keyup', function() {
