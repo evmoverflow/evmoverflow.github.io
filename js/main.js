@@ -56,9 +56,9 @@ var $wrapper = document.getElementById('wrapper');
 
 var $from = document.getElementById('from-select');
 var $to = document.getElementById('to-select');
-
 var $from_amount = document.getElementById('from-amount');
 var $to_amount = document.getElementById('to-amount');
+var $swap_pairs = document.getElementById('swap-pairs');
 
 var $connect_btn = document.getElementById('connect-btn');
 var $approve_btn = document.getElementById('approve-btn');
@@ -163,6 +163,15 @@ $to_amount.addEventListener('keyup', function() {
 });
 $to_amount.addEventListener('change', function() {
   getReturnAmount(true);
+});
+
+$swap_pairs.addEventListener('click', function() {
+  var from = $from.value;
+  $from.value = $to.value;
+  $to.value = from;
+  $from_amount.value = $to_amount.value;
+  $to_amount.value = '';
+  getReturnAmount();
 });
 
 // ---

@@ -13,12 +13,9 @@ table {
 font: inherit;
 }
 button {
-color: #eee;
-background-color: #111;
-border: 1px solid #666;
-padding: 6px 8px;
 cursor: pointer;
 font: inherit;
+background-color: inherit;
 outline: 0;
 }
 button:hover {
@@ -114,14 +111,17 @@ margin-right: 6px;
 margin-bottom: 2px;
 }
 
-#wrapper button {
+#action button {
 display: none;
 width: 100%;
 font-weight: 600;
 padding: 10px;
 border-radius: 0 0 10px 10px;
+color: #eee;
+background-color: #111;
+border: 1px solid #666;
 }
-#wrapper button[disabled] {
+#action button[disabled] {
 color: #999;
 background-color: #3f3f3f;
 }
@@ -156,4 +156,17 @@ border: 1px solid #d9865f;
 }
 #approve-btn:hover {
 background-color: #c38425
+}
+
+#swap-pairs {
+border: 1px solid #666;
+border-radius: 50%;
+padding: 5px;
+}
+#swap-pairs:hover {
+background-color: #666;
+}
+#swap-pairs img {
+width: 16px;
+height: 16px;
 }
