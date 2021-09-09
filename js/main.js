@@ -16,18 +16,18 @@ var EXCHANGE_IDS = [
 ];
 
 var EXCHANGES = [
-  { method: '0x100d2288', fee: null },
-  { method: '0x2003dc1d', fee: null },
-  { method: '0x300b6299', fee: null },
-  { method: '0x40069d39', fee: null },
-  { method: '0x5007b353', fee: null },
-  { method: '0x600b8d14', fee: null },
-  { method: '0x700b289a', fee: null },
-  { method: '0x80051ad3', fee: null },
-  { method: '0x90078849', fee: null },
-  { method: '0xa0070cb4', fee: null },
-  { method: '0xb00ce731', fee: null },
-  { method: '0xc0017afc', fee: null },
+  { method: '0x10000000', fee: null },
+  { method: '0x20000000', fee: null },
+  { method: '0x30000000', fee: null },
+  { method: '0x40000000', fee: null },
+  { method: '0x50000000', fee: null },
+  { method: '0x60000000', fee: null },
+  { method: '0x70000000', fee: null },
+  { method: '0x80000000', fee: null },
+  { method: '0x90000000', fee: null },
+  { method: '0xa0000000', fee: null },
+  { method: '0xb0000000', fee: null },
+  { method: '0xc0000000', fee: null },
 ];
 
 var TOKENS = {
